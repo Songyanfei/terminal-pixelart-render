@@ -1,0 +1,13 @@
+# Generated output
+*.txt
+*.html
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+
+# IDE / OS
+.DS_Store

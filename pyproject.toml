@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pixelart"
+version = "0.1.0"
+description = "Render images as terminal pixel art using Unicode half-block characters and 24-bit ANSI color"
+requires-python = ">=3.9"
+dependencies = [
+    "Pillow>=10.0",
+]
+
+[project.scripts]
+pixelart = "pixelart:main"
+
+[tool.setuptools]
+py-modules = ["pixelart"]
