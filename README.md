@@ -6,8 +6,6 @@
 pixelart cat.jpg -w 120 | head
 ```
 
-![screenshot]()
-
 ## 安装
 
 ```bash
